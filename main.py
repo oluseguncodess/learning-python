@@ -1,44 +1,6 @@
-#data types 
+# Learning python by doing exercises!!
 
-# The major ones we have are string, interger, boolean, float
-
-#data types can be determined using the type function and can be changed also using certain functions 
-
-numbs = 10
-detType = type(numbs) #printing this will bring out it's data type to be an interger. 
-
-#changing it's data type 
-my_string = str(numbs)
-detTypes = type(my_string) #printing this wll give string to be it's data type because we have converted it
-
-#variable 
-
-name = "olusegun"
-
-#for loop
-
-numbers = [1, 2, 4, 6 ,7 ,8 , 9, 20, 3, 5, 12, 14, 95, 86, 72]
-
-for num in numbers:
-    if num % 2 == 0:
-        continue
-#     print("This is an odd number", num)
-# print("Game is over")
-
-
-
-
-
-
-
-
-
-
-
-
-#exercises 
-
-#Exercise 1
+# #Exercise 1 - 
 
 #Suppose the cost of an item as $600. After a month, the cost is doubled due to exchange rates. About 3
 # weeks later, the cost is reduced by $150. After a week, the cost is increased by $100.
@@ -58,7 +20,30 @@ initial_cost -= 150
 
 initial_cost += 100
 
-print("The new cost of the item is: $" + str(initial_cost))
+# print("The new cost of the item is: $" + str(initial_cost))
 
+
+# Exercise 2
+
+# Given that the age of Joe is 26 and the age of Lisa is 29, write code to compare these ages. Print True if
+# the following statements are True and False if not:
+
+# 1. Is Joe older than Lisa?
+# 2. Is Joe older than 30 and Lisa less than 30?
+# 3. Is Joe older than 30 or Lisa less than 30?
+# 4. Are Joe and Lisa equal in age?
+# 5. Is Lisa’s age greater or equal to 40?
+
+#Solution
+
+joe = 26
+
+lisa = 29
+
+#1. is Joe older than Lisa? 
+print("It is " + str(joe > lisa) + " that Joe is older than Lisa")
+
+# 2. Is Joe older than 30 and Lisa less than 30?
+print((joe > 30), ", Joe is not older than 30 and", (lisa < 30), "Lisa is less than 30")
 
 
