@@ -36,14 +36,18 @@ initial_cost += 100
 
 #Solution
 
-joe = 26
+# joe = 26
 
-lisa = 29
+# lisa = 29
 
-#1. is Joe older than Lisa? 
-print("It is " + str(joe > lisa) + " that Joe is older than Lisa")
+# #1. is Joe older than Lisa? 
+# print("It is " + str(joe > lisa) + " that Joe is older than Lisa")
 
-# 2. Is Joe older than 30 and Lisa less than 30?
-print((joe > 30), ", Joe is not older than 30 and", (lisa < 30), "Lisa is less than 30")
+# # 2. Is Joe older than 30 and Lisa less than 30?
+# print((joe > 30), ", Joe is not older than 30 and", (lisa < 30), "Lisa is less than 30")
+
+sillyTest = '''Say, "I'm in!"
+This is line 3'''
+print(sillyTest)
 
 
