@@ -46,8 +46,14 @@ initial_cost += 100
 # # 2. Is Joe older than 30 and Lisa less than 30?
 # print((joe > 30), ", Joe is not older than 30 and", (lisa < 30), "Lisa is less than 30")
 
-sillyTest = '''Say, "I'm in!"
-This is line 3'''
-print(sillyTest)
+# Exercise 3 
 
+# Create a Python script that uses escape characters to format and print the following text:
 
+# My favorite programming languages:
+# 1. Python
+# 2. Java
+# 3. C++
+
+# solution
+# print("My favourite programming languages: \n 1. Python \n 2. Java \n 3. C++")
