@@ -58,4 +58,18 @@ initial_cost += 100
 # solution
 # print("My favourite programming languages: \n 1. Python \n 2. Java \n 3. C++")
 
-# 
+# Exercise 4
+
+
+# 2. Print the elements from the 3rd to the 7th.
+# 3. Print the first 3 elements.
+# 4. Print the last 3 elements.
+# 5. Ask the user for their favorite color and append it to the list.
+# 6. What will be the output of the following:
+
+# Create a list of your favorite colors.
+colors = ['orange', 'green', 'blue', 'black', 'red', 'purple']
+
+
+# 1. Print the second and fourth elements from the list.
+print(colors[1][4])
