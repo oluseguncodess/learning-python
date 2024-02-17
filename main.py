@@ -61,7 +61,7 @@ initial_cost += 100
 # Exercise 4
 
 
-# 2. Print the elements from the 3rd to the 7th.
+
 # 3. Print the first 3 elements.
 # 4. Print the last 3 elements.
 # 5. Ask the user for their favorite color and append it to the list.
@@ -70,6 +70,9 @@ initial_cost += 100
 # Create a list of your favorite colors.
 colors = ['orange', 'green', 'blue', 'black', 'red', 'purple']
 
-
 # 1. Print the second and fourth elements from the list.
-print(colors[1][4])
+print('second element:', colors[1])
+print('fourth element:', colors[3])
+
+# 2. Print the elements from the 3rd to the 7th.
+print(" Element's from the 3rd to the 7th:", colors[2:6])
