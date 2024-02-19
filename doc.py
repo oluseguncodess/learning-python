@@ -1,5 +1,6 @@
 # This here is mainly for documentation!
 
-my_string = 'Sebastian thrun'
+#variables 
 
-print(my_string.capitalize())
+# This is used to store values of different data types 
+name_of_variable = value
