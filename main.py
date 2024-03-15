@@ -125,3 +125,15 @@ print("Statement a:", statement_a)
 print("Statement b:", statement_b)
 print("Statement c:", statement_c)
 
+#
+# Create a Python script that uses escape characters to format and print the following text:
+
+# My favorite programming languages:
+# 1. Python
+# 2. Java
+# 3. C++
+# 
+
+# Solution
+
+print("My favorite programming languages:\n1. Python\n2. Java\n3. C++")

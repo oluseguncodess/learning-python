@@ -11,3 +11,8 @@ name_of_variable = value
 # e.g the print function
 print("I am a cow")
 # this function is the most used as it's used to display information in a console
+
+#Methods 
+# These are functions that "belong to" an object. 
+
+#e.g .lower() - makes a string lowercase all through
