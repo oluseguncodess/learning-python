@@ -76,3 +76,52 @@ print('fourth element:', colors[3])
 
 # 2. Print the elements from the 3rd to the 7th.
 print(" Element's from the 3rd to the 7th:", colors[2:6])
+
+
+# 1. Create variables with appropriate identifiers for the following:
+# a. Your name
+# b. Your age
+# c. The value of Pi (3.14)
+# 2. Use assignment operators to update the following variables:
+# a. `count` starts at 5, increment it by 2.
+# b. `total` starts at 10, decrement it by 3.
+# 3. Given `food_cost` as $900 and `light_cost` as $950. Write code to check if the following statements
+# are True or False:
+# a. Is the cost of food lower than the cost of light?
+# b. Is the cost of light greater than $900?
+# c. Is the cost of food greater than $1000 or the cost of light less than $900?
+
+#Solution
+# 1. Variables
+# a. Your name
+name = "Your Name"
+# b. Your age
+age = 30
+# c. The value of Pi
+pi_value = 3.14
+
+# 2. Updating variables
+# a. Increment count by 2
+count = 5
+count += 2
+# b. Decrement total by 3
+total = 10
+total -= 3
+
+# 3. Checking statements
+# Given values
+food_cost = 900
+light_cost = 950
+
+# a. Is the cost of food lower than the cost of light?
+statement_a = food_cost < light_cost
+# b. Is the cost of light greater than $900?
+statement_b = light_cost > 900
+# c. Is the cost of food greater than $1000 or the cost of light less than $900?
+statement_c = food_cost > 1000 or light_cost < 900
+
+# Print results
+print("Statement a:", statement_a)
+print("Statement b:", statement_b)
+print("Statement c:", statement_c)
+
